@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu portfólio pessoal e acadêmico">
+    <title>Início | Meu Portfólio</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <a href="index.html" class="marca">Meu Portfólio</a>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html" class="ativo">Início</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="formulario.html">Contato</a></li>
+                <li><a href="multimidia.html">Multimídia</a></li>
+                <li><a href="graficos.html">Gráficos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="destaque">
+            <div>
+                <p class="sobretitulo">MEU PORTFÓLIO PESSOAL</p>
+                <h1>Olá, seja bem-vindo!</h1>
+                <p>
+                    Sou estudante de Análise e Desenvolvimento de Sistemas,
+                    interessado em tecnologia, banco de dados e análise de dados.
+                </p>
+                <a href="curriculo.html" class="botao">Conheça meu currículo</a>
+            </div>
+
+            <div class="avatar">
+                &lt;/&gt;
+            </div>
+        </section>
+
+        <section class="secao">
+            <h2>Sobre mim</h2>
+            <p>
+                Estou em constante aprendizado na área de tecnologia.
+                Busco desenvolver minhas habilidades e colocar meus
+                conhecimentos em prática por meio de projetos e experiências.
+            </p>
+        </section>
+
+        <section class="secao">
+            <h2>Minhas áreas de interesse</h2>
+
+            <div class="cartoes">
+                <article class="cartao">
+                    <h3>Banco de dados</h3>
+                    <p>SQL, consultas e organização de informações.</p>
+                </article>
+
+                <article class="cartao">
+                    <h3>Análise de dados</h3>
+                    <p>Excel, Power BI e visualização de indicadores.</p>
+                </article>
+
+                <article class="cartao">
+                    <h3>Tecnologia</h3>
+                    <p>Desenvolvimento web e suporte em TI.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2026 - Meu Portfólio Pessoal</p>
+    </footer>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Meu Portfólio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="js/formulario.js" defer></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <a href="index.html" class="marca">Meu Portfólio</a>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="formulario.html" class="ativo">Contato</a></li>
+                <li><a href="multimidia.html">Multimídia</a></li>
+                <li><a href="graficos.html">Gráficos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="secao">
+        <h1>Entre em contato</h1>
+        <p>Preencha o formulário abaixo para enviar uma mensagem.</p>
+
+        <section class="cartao">
+            <form id="form-contato">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit" class="botao">Enviar mensagem</button>
+
+                <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2026 - Meu Portfólio Pessoal</p>
+    </footer>
+
+</body>
+</html>
